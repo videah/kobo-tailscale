@@ -18,6 +18,11 @@ If you have another device and would like to contribute, please open a PR!
 ## Uninstallation
 Simply run `uninstall-tailscale.sh` from the chosen device's directory in the repo.
 
+## DNS Issues
+When there's no DNS manager on a system, Tailscale will resort to just [overwriting resolv.conf](https://tailscale.com/kb/1235/resolv-conf/)
+which can cause issues on Kobo devices. If you find that this DNS breaks after a while you can fix this by running
+`tailscale set --accept-dns=false` on your device to prevent it from overwriting resolv.conf.
+
 ## Acknowledgements
 [Dylan Staley for initial work and scripts on the Kobo Sage](https://dstaley.com/posts/tailscale-on-kobo-sage)
 

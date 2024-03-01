@@ -3,9 +3,11 @@ Install scripts for getting [Tailscale](https://tailscale.com) running on Kobo e
 
 ## Supported devices
 - *Kobo Libra 2*
+- *Kobo Forma*
 
-Currently only the Libra 2 is supported as it is the only device I have access to.
 If you have another device and would like to contribute, please open a PR!
+
+*Note taht a lot of Rakuten code is shared between various Kobo devices. Feel free to test the scripts **at your own risk** if your device is not listed here. There is a chance that it might work out-of-the-box*.
 
 ## Installation
 > [!NOTE]  

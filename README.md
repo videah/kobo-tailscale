@@ -7,6 +7,8 @@ Install scripts for getting [Tailscale](https://tailscale.com) running on Kobo e
 
 If you have another device and would like to contribute, please open a PR!
 
+*Note taht a lot of Rakuten code is shared between various Kobo devices. Feel free to test the scripts **at your own risk** if your device is not listed here. There is a chance that it might work out-of-the-box*.
+
 ## Installation
 > [!NOTE]  
 > The version of Tailscale to install can be chosen by editing the `TAILSCALE_VERSION` variable in `install-tailscale.sh`.

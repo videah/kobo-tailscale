@@ -4,8 +4,8 @@ Install scripts for getting [Tailscale](https://tailscale.com) running on Kobo e
 ## Supported devices
 - *Kobo Libra 2*
 - *Koba Libra Colour*/*Koba Libra Color*
+- *Kobo Clara BW*
 
-Currently only the Libra 2 is supported as it is the only device I have access to.
 If you have another device and would like to contribute, please open a PR!
 
 ## Installation

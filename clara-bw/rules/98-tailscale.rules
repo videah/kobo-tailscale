@@ -1,0 +1,3 @@
+KERNEL=="loop0", RUN+="/bin/sh -c '/usr/local/tailscale/boot.sh'"
+KERNEL=="wlan*", ACTION=="add", RUN+="/bin/sh -c '/usr/local/tailscale/on-wlan-up.sh'"
+KERNEL=="wlan*", ACTION=="remove", RUN+="/bin/sh -c '/usr/local/tailscale/on-wlan-down.sh'"

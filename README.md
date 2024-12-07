@@ -2,14 +2,14 @@
 Install scripts for getting [Tailscale](https://tailscale.com) running on Kobo e-readers and persisting through reboots.
 
 ## Supported devices
-- *Kobo Libra 2*
-- *Koba Libra Colour*/*Koba Libra Color*
+- *Kobo Libra 2*/*Forma*/*Aura H2O Edition 2* (via [libra2](libra2/README.md))
+- *Koba Libra Colour*/*Koba Libra Color*/*Elipsa 2E* (via [libra-color](libra-color/README.md))
 - *Kobo Clara BW*
 
 If you have another device and would like to contribute, please open a PR!
 
 ## Installation
-> [!NOTE]  
+> [!NOTE]
 > The version of Tailscale to install can be chosen by editing the `TAILSCALE_VERSION` variable in `install-tailscale.sh`.
 
 1. Download this repo onto your Kobo e-reader's onboard storage and find your device.

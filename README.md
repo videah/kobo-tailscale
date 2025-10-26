@@ -5,6 +5,7 @@ Install scripts for getting [Tailscale](https://tailscale.com) running on Kobo e
 - *Kobo Libra 2*
 - *Koba Libra Colour*/*Koba Libra Color*
 - *Kobo Clara BW*
+- *Kobo Sage*
 
 If you have another device and would like to contribute, please open a PR!
 
